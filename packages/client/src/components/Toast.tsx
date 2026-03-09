@@ -12,7 +12,7 @@ export function Toast() {
      * a relatively recognizable color scheme for toasts without compromising accessibility.
      * */
     [NotificationSeverity.INFO]: 'border-gray-500 bg-gray-500',
-    [NotificationSeverity.SUCCESS]: 'border-[#02855E] bg-[#02855E]',
+    [NotificationSeverity.SUCCESS]: 'border-[#007070] bg-[#007070]',
     [NotificationSeverity.WARNING]: 'border-[#C75209] bg-[#C75209]',
     [NotificationSeverity.ERROR]: 'border-[#E02F1F] bg-[#E02F1F]',
   };

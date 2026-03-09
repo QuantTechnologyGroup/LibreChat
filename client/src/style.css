@@ -18,17 +18,17 @@
   --gray-800: #212121;
   --gray-850: #171717;
   --gray-900: #0d0d0d;
-  --green-50: #ecfdf5;
-  --green-100: #d1fae5;
-  --green-200: #a7f3d0;
-  --green-300: #6ee7b7;
-  --green-400: #34d399;
-  --green-500: #10b981;
-  --green-600: #059669;
+  --green-50: #ecfffe;
+  --green-100: #ccfffe;
+  --green-200: #99fffd;
+  --green-300: #66fffe;
+  --green-400: #33ffff;
+  --green-500: #00ffff;
+  --green-600: #00cccc;
   --green-700: #00ffff;
   --green-800: #00cccc;
-  --green-900: #064e3b;
-  --green-950: #022c22;
+  --green-900: #007070;
+  --green-950: #003d3d;
   --red-50: #fef2f2;
   --red-100: #fee2e2;
   --red-200: #fecaca;
@@ -1362,12 +1362,12 @@ button {
 .btn-primary {
   --tw-bg-opacity: 1;
   --tw-text-opacity: 1;
-  background-color: rgba(16, 163, 127, var(--tw-bg-opacity));
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  background-color: rgba(0, 255, 255, var(--tw-bg-opacity));
+  color: rgba(10, 10, 10, var(--tw-text-opacity));
 }
 .btn-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(26, 127, 100, var(--tw-bg-opacity));
+  background-color: rgba(0, 204, 204, var(--tw-bg-opacity));
 }
 .btn-primary:focus {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width)
@@ -1384,23 +1384,23 @@ button {
 }
 .btn-primary.focus-visible {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(25, 195, 125, var(--tw-ring-opacity));
+  --tw-ring-color: rgba(0, 255, 255, var(--tw-ring-opacity));
 }
 .btn-primary:focus-visible {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(25, 195, 125, var(--tw-ring-opacity));
+  --tw-ring-color: rgba(0, 255, 255, var(--tw-ring-opacity));
 }
 .btn-primary:disabled:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(16, 163, 127, var(--tw-bg-opacity));
+  background-color: rgba(0, 255, 255, var(--tw-bg-opacity));
 }
 .btn-secondary {
   --tw-border-opacity: 1;
   --tw-bg-opacity: 1;
   --tw-text-opacity: 1;
   background-color: transparent;
-  background-color: rgba(16, 163, 156, var(--tw-bg-opacity));
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  background-color: rgba(0, 255, 255, var(--tw-bg-opacity));
+  color: rgba(10, 10, 10, var(--tw-text-opacity));
 }
 .btn-secondary:hover {
   --tw-bg-opacity: 1;
@@ -1410,9 +1410,9 @@ button {
 }
 .dark .btn-secondary:hover {
   --tw-bg-opacity: 1;
-  border-color: rgba(8, 82, 78, var(--tw-border-opacity));
-  color: rgba(255, 255, 240, var(--tw-text-opacity));
-  background-color: rgba(8, 82, 78, var(--tw-bg-opacity));
+  border-color: rgba(0, 80, 80, var(--tw-border-opacity));
+  color: rgba(10, 10, 10, var(--tw-text-opacity));
+  background-color: rgba(0, 80, 80, var(--tw-bg-opacity));
 }
 .btn-neutral {
   --tw-bg-opacity: 1;

@@ -161,7 +161,7 @@ function DashGroupItemComponent({ group, instanceProjectId }: DashGroupItemProps
               selection={{
                 selectHandler: handleSaveRename,
                 selectClasses:
-                  'bg-surface-submit hover:bg-surface-submit-hover text-white disabled:hover:bg-surface-submit',
+                  'bg-surface-submit hover:bg-surface-submit-hover text-black disabled:hover:bg-surface-submit',
                 selectText: localize('com_ui_save'),
                 isLoading,
               }}
