@@ -130,7 +130,7 @@ const RightPanel = React.memo(
                   !canEdit
                 }
               >
-                <Rocket className="size-5 cursor-pointer text-white" aria-hidden="true" />
+                <Rocket className="size-5 cursor-pointer text-[#333]" aria-hidden="true" />
               </Button>
             )}
             <DeleteVersion
